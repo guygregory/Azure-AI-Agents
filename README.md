@@ -30,7 +30,7 @@ This Python application provides a lightweight Flask frontend to demonstrate the
 2. Create and activate a virtual environment:
     ```sh
     python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    venv\Scripts\activate
     ```
 
 3. Install the required dependencies:
@@ -47,7 +47,7 @@ This Python application provides a lightweight Flask frontend to demonstrate the
 
 1. Run the Flask application:
     ```sh
-    python app/weather.py
+    python ".\app - weather.py"
     ```
 
 2. Open your web browser and go to `http://127.0.0.1:5000`.
@@ -56,7 +56,7 @@ This Python application provides a lightweight Flask frontend to demonstrate the
 
 ## File Structure
 
-- `app/weather.py`: Main Flask application code.
+- `app - weather.py`: Main Flask application code.
 - `templates/weather.html`: HTML template for the web interface.
 - `weather_openapi.json`: OpenAPI specification for the weather data API.
 
